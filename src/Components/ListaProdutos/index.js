@@ -1,9 +1,9 @@
-import Produto from "../Produto/index";
+import Produto from '../Produto/index'
 
 const ListaProdutos = ({ produtos }) => {
-    return (
-      <div>{produtos.map( 
-          (p) => (<Produto valor={p}><Produto/>) 
+    return(
+      <div> {produtos.map( 
+          (p)=> (<Produto valor={p} ></Produto>) 
         )}
       </div>
     );
