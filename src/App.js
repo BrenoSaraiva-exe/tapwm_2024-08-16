@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import ListaProdutos from "./Components/ListaProdutos/index"
+import ListaProdutos from "./Components/ListaProdutos/index";
+import CadastroProduto from './Components/CadastroProduto';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
@@ -22,6 +23,8 @@ function App() {
     <div>
       <h1>Lista Produtos</h1>
         <ListaProdutos produtos={produtos}/>
+        <CadastroProduto carregaProdutos={carregaProdutos}/>
+        
     </div>
   );
 }
