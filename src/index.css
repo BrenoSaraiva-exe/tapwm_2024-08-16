@@ -5,36 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: space-evenly;
 }
-
+ 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.titulo {
-  font-size: 1.5rem;
+ 
+.titulo{
+  font-size: 1.5m;
   font-weight: bold;
-  color: #333;
+  color: #000000;
 }
-
-.subtitulo {
-  font-size: 1rem;
-  font-weight: normal;
-  color: #333;
+ 
+.subtitulo{
+  font-size: 18pt;
+  font-weight: bold;
+  color: #000000;
 }
-
-.card {
-  display: inline-block;
+ 
+.cardProd{
+ 
+  display:inline-block;
   width: 300px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  background-color: #eaf7f4;
+  box-shadow: 100x 200px 400px rgb(93, 39, 107);
+  border-radius: 40px;
   padding: 16px;
   margin: 3px;
+ 
 }
-
+ 
 .imagem{
-  height: 80%;
-  max-width: 200px;
+  max-width: 80%;
+  max-height:300px ;
+}
+ 
+button{
+  width: 200px;
+  height: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #d5e3df;
+  border-radius: 23px;
+  border: none;
+  box-shadow: 0px 4px 16px 0px #ffffff25;
 }
